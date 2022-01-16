@@ -1,12 +1,15 @@
 .container00
 {
-    background-color: rosybrown;
+    background-color: rgba(0, 0, 0, 0);
     width: 250px;
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: dimgrey;
+    border-width: 3px;
+    border-style: dotted;
 }
 
 input
