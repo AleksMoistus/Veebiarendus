@@ -1,0 +1,14 @@
+.container00
+{
+    background-color: rosybrown;
+    width: 250px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+input
+{
+    margin-top: 5px;
+}
