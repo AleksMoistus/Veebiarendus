@@ -6,9 +6,29 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 input
 {
     margin-top: 5px;
+}
+
+select
+{
+    margin-top: 5px;
+}
+body
+{
+    background-color: slategrey;
+}
+
+.news
+{
+    font-size: 11px;
+}
+
+label
+{
+    font-size: 12px;
 }

@@ -11,25 +11,36 @@
 
 <body>
     <div class="container00">
-            <h1>Logi Sisse</h1>
-            <form action="http://localhost/autentimine" method="get">
-                <label for="Nimi">Username:</label><br>
-                <input type="text" id="Nimi" name="Nimi" placeholder="Username"><br>
-                <Label for="Salasona">Password:</Label><br>
-                <input type="password" id="Salasona" name="Salasona" placeholder="Password"><br>
-                <input type="submit" value="Log In">
-            </form>
+        <h1>Logi Sisse</h1>
+        <form action="http://localhost/autentimine" method="get">
+            <label for="fullname">Full Name:</label><br>
+            <input type="text" placeholder="Enter Full Name" id="fullname" name="fullname"><br>
+            <label for="email">E-Mail:</label><br>
+            <input type="email" placeholder="Enter E-Mail" is="email" name="email"><br>
+            <label for="number">Phone Number:</label><br>
+            <input type="text" id="number" name="number" placeholder="Enter Phone Number"><br>
+            <label for="birthdate">Date Of Birth:</label><br>
+            <input type="date" id="birthdate" name="birthdate"><br>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter Username"><br>
+            <Label for="password">Password:</Label><br>
+            <input type="password" id="password" name="password" placeholder="Enter Password"><br>
+            <Label for="repeatpassword">Repeat Password:</Label><br>
+            <input type="password" id="repeatpassword" name="repeatpassword" placeholder="Repeat Password"><br>
+            <label for="cars">Pick a car:</label>
+            <select name="cars" id="cars">
+                <option value="empty">...</option>
+                <option value="honda">Honda</option>
+                <option value="mazda">Mazda</option>
+                <option value="toyota">Toyota</option>
+                <option value="subaru">Subaru</option>
+                <option value="nissan">Nissan</option>
+            </select><br>
+            <input type="checkbox" value="Yes">
+            <label for="news" class="news">Agree to recieve news to e-mail?</label><br>
+            <input type="submit" value="Log In">
+        </form>
     </div>
-
-    <ol>
-        <li>Esimene loeng
-            <ul>
-                <li><a href="https://aleksmoistus.github.io/Veebiarendus/loeng01/HTML-02.html">HTML-02</a></li>
-                <li><a href="https://aleksmoistus.github.io/Veebiarendus/loeng01/HTML-01.html">HTML-01</a></li>
-            </ul>
-        </li>
-    </ol>
-
 </body>
 
 </html>
