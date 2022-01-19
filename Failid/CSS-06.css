@@ -1,0 +1,64 @@
+div
+{
+box-sizing: border-box;
+}
+
+body
+{
+font-family: 'Roboto', sans-serif;
+background-image: url('../Pildid/news.png');
+background-size: cover;
+background-attachment: fixed;
+text-align: center;
+}
+
+.cont-03-01
+{
+width: 80%;
+background-color: rgba(255, 255, 255, 0.678);
+margin-left: auto;
+margin-right: auto;
+max-width: 900px;
+padding: 20px;
+margin-top: 60px;
+border: dimgrey;
+border-width: 4px;
+border-style: groove;
+font-size: 0.8rem;
+}
+
+.author-03-01, .date-03-01
+{
+font-style: italic;
+padding: 3px;
+display: inline-block;
+width: 49%;
+}
+
+.author-03-01
+{
+    padding-bottom: 0px;
+    padding-right: 0px;
+}
+.date-03-01
+{
+    text-align: right;
+}
+
+p
+{
+    font-size: 1rem;
+}
+
+.newspic-03-01
+{
+ width: 100%;
+}
+
+.picinfo-03-01
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 97%;
+    text-align: left;
+}
