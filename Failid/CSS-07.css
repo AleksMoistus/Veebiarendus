@@ -1,0 +1,28 @@
+body
+{
+    display: flex;
+    align-content: center;
+}
+
+.cont
+{
+    background-color: lightslategrey;
+    width: 80%;
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.block
+{
+width: 150px;
+height: 150px;
+background-color: mediumpurple;
+border-style: solid;
+border-width: 1px;
+border-color: black;
+}
