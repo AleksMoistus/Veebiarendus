@@ -1,0 +1,60 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: flex;
+align-content: center;
+background-image: url('../Pildid/news.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.cont
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box
+{
+    background-color: rgba(167, 166, 166, 0.822);
+    padding: 5px;
+    border: black;
+    border-style: double;
+    text-align: center;
+    padding-bottom: 20px;
+    min-width: 300px;
+    width: 30%;
+}
+
+.link
+{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-color: rgba(117, 116, 116, 0.466);
+}
+
+.link:hover
+{
+    background-color: rgb(77, 77, 77);
+}
+
+.fifa
+{
+    text-decoration: none;
+    color: rgb(11, 0, 167);
+}
+
+.fifa:hover
+{
+    color: rgb(62, 54, 173);
+}
