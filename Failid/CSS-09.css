@@ -1,0 +1,116 @@
+
+
+body
+{
+    font-family: 'Teko', sans-serif;
+    min-width: 600px;
+}
+header img
+{
+    max-width: 300px;
+    min-width: 150px;
+    width: 20%;
+}
+
+header a
+{
+    max-width: 300px;
+    width: 20%;
+    min-width: 150px;
+    text-align: end;
+}
+
+header h1
+{
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+header 
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    max-height: 100px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: black;
+    height: 50px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding-top: 2px;
+}
+
+nav ul
+{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0px;
+    justify-content: center;
+    width: 100%;
+}
+
+nav a
+{
+    color: white;
+    padding: 5px;
+    font-size: 2rem;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 14px;
+
+} 
+
+nav a:hover
+{
+    background-color: rgb(15, 15, 15);
+}
+
+
+main
+{
+    display: flex;
+    min-height: 600px;
+}
+
+main section
+{
+    background-color: black;
+    width: 70%;
+    margin-right: 1px;
+    min-width: 300px;
+    text-align: center;
+}
+
+main aside
+{
+    background-color: black;
+    width: 30%;
+    min-width: 200px;
+    text-align: center;
+}
+
+main h1
+{
+    color: white;
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+main img
+{
+    width: 80%;
+    border-style: solid;
+    border-color: white;
+    margin-bottom: 50px;
+    padding: 2px;
+}

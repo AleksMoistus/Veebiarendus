@@ -1,12 +1,11 @@
 body
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-display: flex;
-align-content: center;
-background-image: url('../Pildid/news.png');
-background-repeat: no-repeat;
-background-size: cover;
-background-attachment: fixed;
+    display: flex;
+    background-image: url('../Pildid/news.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .cont
@@ -22,7 +21,7 @@ background-attachment: fixed;
     border: black;
     border-style: solid;
     text-align: center;
-padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .fifa
@@ -60,7 +59,7 @@ padding-bottom: 20px;
 
 img
 {
-width: 90%;
-border: black;
+    width: 90%;
+    border: black;
     border-style: solid;
 }
