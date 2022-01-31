@@ -1,0 +1,75 @@
+* 
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+}
+
+.block
+{
+    margin-bottom: 5px;
+    margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+body
+{
+    background-color: rgb(43, 43, 43);
+}
+
+.jumbotron
+{
+    background-color: rgb(77, 77, 77);
+}
+@media (min-width: 1200px)
+{
+    .container
+    {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .container
+    {
+        max-width: 90%;
+    }
+}
+
+@media (min-width: 576px)
+{
+    .container
+    {
+        max-width: 90%;
+    }
+}
+
+@media screen and (min-width: 600px) 
+{
+    .container
+    {
+        flex-direction: row; 
+        flex-wrap: wrap;       
+    }
+
+    .block
+    {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 1000px)
+{
+    .block
+    {
+        width: 30%;
+    }
+}
+
+

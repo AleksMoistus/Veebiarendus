@@ -1,0 +1,19 @@
+.block
+{
+    width: 50%;
+}
+
+@media  screen and (max-width: 600px) 
+{
+    .block
+    {
+        width: 100%;
+    }
+
+    .container
+    {
+        flex-direction: column;
+    }
+}
+
+
