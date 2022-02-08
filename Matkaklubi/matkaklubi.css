@@ -1,7 +1,7 @@
 .headerSection
 {
     background-image: url('Assets/Hills.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     width: 100%;
     height: 980px;
@@ -37,27 +37,62 @@
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
+    max-width: none;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .row
 {
 margin-top: 2rem;
 margin-left: 4rem;
+margin-right: 4rem;
 height: 75px;
 justify-content: space-between;
-width: 1453px;
 }
 
-.col-7
+.col-5
+{
+    width: 250px;
+    flex: none;
+    max-width: none;
+}
+
+nav
 {
     align-items: center;
-    width: 751px;
     justify-content: space-between;
-    padding-right: 80px;
     padding-left: 0px;
+    max-width: 751px;
+    min-width: 751px;
+    justify-content: flex-end;
 }
 
-nav a
+.nav-home
+{
+    width: 11%;
+    text-align: center;
+}
+
+.nav-fam
+{
+    width: 33%;
+    text-align: center;
+}
+
+.nav-up
+{
+    width: 33%;
+    text-align: center;
+}
+
+.nav-con
+{
+    width: 23%;
+    text-align: center;
+}
+
+.nav-home a, .nav-con a, .nav-fam a, .nav-up a
 {
     text-decoration: none;
     color: black;
@@ -74,4 +109,98 @@ nav a:hover
 {
     text-decoration: none;
     color: rgb(109, 109, 109);
+}
+
+@media screen and (max-width: 1200px)
+{
+    nav
+    {
+        flex-direction: row;
+        flex-wrap: wrap;
+        min-width: 450px;
+    }
+
+    .nav-home
+    {
+        width: 50%;
+    }
+
+    .nav-fam
+    {
+        width: 50%;
+    }
+
+    .nav-up
+    {
+        width: 50%;
+    }
+
+    .nav-con
+    {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 850px)
+{
+    nav
+    {
+        flex-direction: column;
+        min-width: 110px;
+        
+    }
+
+    .nav-home
+    {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    .nav-fam
+    {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    .nav-up
+    {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    .nav-con
+    {
+        width: 100%;
+        max-width: 210px;
+    }
+
+    .nav-home a, .nav-con a, .nav-fam a, .nav-up a
+    {
+        padding-bottom: 5px;
+       
+    }
+
+    .col-7
+    {
+         padding-right: 0px;
+         padding-left: 50px;
+    }
+
+    .col-5
+    {
+        width: 100px;
+        align-items: center;
+    }
+
+    .row
+    {
+        margin-right: 20px;
+        height: 100px;
+    }
+
+    #logoText
+    {
+        display: flex;
+        align-items: center;
+    }
 }
