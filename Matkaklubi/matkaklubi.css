@@ -1,7 +1,7 @@
 .headerSection
 {
     background-image: url('Assets/Hills.png');
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 980px;
@@ -92,7 +92,7 @@ nav
     text-align: center;
 }
 
-.nav-home a, .nav-con a, .nav-fam a, .nav-up a
+nav a
 {
     text-decoration: none;
     color: black;
@@ -174,7 +174,7 @@ nav a:hover
         max-width: 210px;
     }
 
-    .nav-home a, .nav-con a, .nav-fam a, .nav-up a
+    nav a
     {
         padding-bottom: 5px;
        
@@ -202,5 +202,95 @@ nav a:hover
     {
         display: flex;
         align-items: center;
+        font-size: 26px;
+        line-height: 26px;
+        padding-top: 0px;
+        width: auto;
+    }
+
+    #logo
+    {
+        width: 53.5px;
+        height: 51px;
+    }
+}
+
+@media screen and (max-width: 580px)
+{
+    nav
+    {
+        flex-direction: column;
+    }
+
+    .nav-home
+    {
+        width: 100%;
+    }
+
+    .nav-fam
+    {
+        width: 100%;
+    }
+
+    .nav-up
+    {
+        width: 100%;
+    }
+
+    .nav-con
+    {
+        width: 100%;
+    }
+
+    nav a
+    {
+        padding-bottom: 5px;
+        font-size: 13px;
+        font-weight: bold;
+        letter-spacing: 2.67px;
+        padding: 5px; 
+    }
+
+    .col-7
+    {
+         padding-right: 0px;
+         padding-left: 0px;
+         width: 100%;
+    }
+
+    .col-5
+    {
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        min-width: none;
+        height: auto;
+    }
+
+    .row
+    {
+        margin: 0px;
+        max-height: none;
+        justify-content: center;
+        min-width: 356px;
+        min-height: none;
+        margin-top: 20px;
+    }
+
+    #logoText
+    {
+        display: flex;
+        align-items: center;
+        font-size: 22px;
+        line-height: 22px;
+        padding-top: 0px;
+        width: auto;
+    }
+
+    #logo
+    {
+        width: 44.5px;
+        height: 42.5px;
     }
 }
