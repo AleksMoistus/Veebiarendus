@@ -58,7 +58,6 @@ justify-content: space-between;
 .row2
 {
 margin-left: 4rem;
-margin-right: 4rem;
 justify-content: space-between;
 }
 
@@ -185,7 +184,54 @@ nav a:hover
     margin-left: -38px;
 }
 
+.row3 a
+{
+    color: white;
+    font-size: 12.5px;
+    text-decoration: none;
+    font-weight: 800;
+    letter-spacing: 2.25px;
+    line-height: 15px; 
+}
 
+#rowa
+{
+    width: 247px;
+    height: 58px;  
+    background-color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#rowa:hover
+{
+    background-color: rgb(83, 83, 83);
+}
+
+.headerSection-I
+{
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.hikerImg
+{
+    width: 914px;
+    height: 914px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 50px;
+}
+
+.shadowImg
+{
+    width: 1091px;
+    height: 89px;
+    margin-left: -25px;
+    margin-top: -40px;
+}
 
 @media screen and (max-width: 1200px)
 {
@@ -214,6 +260,22 @@ nav a:hover
     .nav-con
     {
         width: 50%;
+    }
+
+    .headerSection-I
+    {
+        display: none;
+    }
+
+    .headerSection-H
+    {
+        padding-top: 100px;
+        min-width: 550px;
+    }
+
+    .row2
+    {
+        justify-content: center;
     }
 }
 
@@ -295,6 +357,61 @@ nav a:hover
         width: 53.5px;
         height: 51px;
     }
+
+    .headerSection-H h1
+{
+    font-size: 50px;
+    height: 60px;
+    text-align: center;
+    width: 100%;
+}
+
+.headerSection-H h2
+{
+    font-size: 26px;
+    height: 32px;
+    text-align: center;
+    width: 100%;
+}
+
+.headerSection-H h3
+{
+    font-size: 14px;
+    height: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.bflyBr
+{
+    width: 70px;
+    height: 62px;
+    margin-left: -70px;
+    margin-top: -40px;
+}
+
+.bflyBl
+{
+   display: none;
+}
+
+.row3 a
+{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
+
+#rowa
+{
+    width: 200px;
+    height: 45px;  
+    margin-top: 10px;
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 @media screen and (max-width: 580px)
